@@ -8,7 +8,14 @@ html {
 }
 
 * {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body,
+p,
+h1 {
+  margin: 0;
+  padding: 0; 
 }
 
 #hero,
@@ -16,14 +23,21 @@ footer {
   background-color: #1F2937;
 }
 
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .header-logo {
   font-size: 24px;
+  font-weight: 900;
   color: #F9FAF8;
 }
 
 #hero h1 {
   color: #F9FAF8;
-  font-weight: extra-bold;
   font-size: 48px;
 }
 
@@ -31,10 +45,68 @@ footer {
 #hero nav a {
   font-size: 18px;
   color: #E5E7EB;
+  text-decoration: none;
+}
+
+nav {
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+.row {
+  padding: 90px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#hero .column:first-child {
+  padding-right: 48px;
 }
 
 #hero button,
 .call-to-action {
   color: #F9FAF8;
   background-color: #3883F6;
+}
+
+button {
+  margin: 12px 0;
+  padding: 6px 24px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+#hero button {
+  color: #F9FAF8;
+  border-width: 0;
+}
+
+.image-placeholder {
+  background-color: #6d747d;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
