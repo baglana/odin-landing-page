@@ -26,14 +26,14 @@ body>footer {
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1025px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
 
 nav {
-  padding: 24px 0;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
