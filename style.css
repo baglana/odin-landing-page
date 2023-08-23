@@ -20,7 +20,7 @@ h2 {
 }
 
 #hero,
-footer {
+body>footer {
   background-color: #1F2937;
 }
 
@@ -58,7 +58,7 @@ nav li {
 .row {
   padding: 90px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .column {
@@ -133,7 +133,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  background-color: #E5E7EB;
+  /* background-color: #E5E7EB; */
   text-align: center;
 }
 
@@ -143,4 +143,26 @@ button {
   /* margin-bottom: 8px; */
   border: 4px solid #3883F6;
   border-radius: 16px;
+}
+
+#quote {
+  background-color: #E5E7EB;
+}
+
+blockquote {
+  max-width: 795px;
+  margin: 40px 0 10px 35px;
+}
+
+blockquote p {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+blockquote footer {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 600;
+  padding-right: 28px;
 }
