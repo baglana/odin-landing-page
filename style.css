@@ -14,7 +14,8 @@ html {
 body,
 p,
 h1,
-h2 {
+h2,
+h3 {
   margin: 0;
   padding: 0; 
 }
@@ -87,7 +88,7 @@ nav li {
 }
 
 #hero button,
-.call-to-action {
+#call-to-action .row * {
   color: #F9FAF8;
   background-color: #3882F6;
 }
@@ -165,5 +166,22 @@ blockquote footer {
   font-size: 24px;
   font-weight: 600;
   padding-right: 28px;
+}
+
+#call-to-action .content {
+  border-radius: 10px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#call-to-action .call-to-action-text p {
+  color: #E5E7EB;
+}
+
+#call-to-action button {
+  border: 2px solid #F9FAF8;
 }
 
