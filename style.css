@@ -61,6 +61,7 @@ nav li {
   padding: 86px 0;
   display: flex;
   gap: 50px;
+  justify-content: center;
 }
 
 #hero-text {
@@ -172,10 +173,16 @@ blockquote footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 0 36px;
+}
+
+#call-to-action .call-to-action-text h3 {
+  font-size: 24px;
 }
 
 #call-to-action .call-to-action-text p {
   color: #E5E7EB;
+  font-size: 18px;
 }
 
 #call-to-action button {
