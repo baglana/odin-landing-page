@@ -157,10 +157,11 @@ blockquote {
   margin: 40px 0 10px 35px;
 }
 
-blockquote p {
+#quote-text {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
+  color: #1F2937;
 }
 
 blockquote footer {
